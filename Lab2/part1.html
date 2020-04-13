@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 2: Intro to Three.js Part 1</title>
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }
+		</style>
+	</head>
+	<body>
+		<script src="../three.js-master/build/three.js"></script>
+		<script>
+			// Our Javascript will go here.
+            var scene = new THREE.Scene();
+            var camera = new THREE.PerspectiveCamera(75, 
+            window.innerWidth/window.innerHeight, 0.1, 1000);
+
+            var renderer = new THREE.WebGLRenderer();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            document.body.appendChild(renderer.domElement);
+
+            var geometry = new THREE.BoxGeometry(1 , 1, 1);
+            var material = new THREE.MeshBasicMaterial( {color: 0xff0000} );
+            var cube = new THREE.Mesh(geometry, material);
+
+            var geometry1 = new THREE.BoxGeometry(1 , 1, 1);
+            var material1 = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
+            var cube1 = new THREE.Mesh(geometry1, material1);
+
+            var geometry2 = new THREE.BoxGeometry(1 , 1, 1);
+            var material2 = new THREE.MeshBasicMaterial( {color: 0x0000ff} );
+            var cube2 = new THREE.Mesh(geometry2, material2);
+
+            cube1.position.set(2, 0, 0);
+            cube2.position.set(-2, 0, 0);
+            scene.add(cube);
+            scene.add(cube1);
+            scene.add(cube2);
+            camera.position.z = 5;
+            var x = 1, t = 0;
+            function animate() 
+            {
+                requestAnimationFrame(animate);
+                renderer.render(scene, camera);
+                geometry.rotateX(0.01);
+                geometry.rotateY(0.01);
+                geometry.rotateZ(0.01);
+
+                geometry1.rotateY(0.01);
+                geometry1.translate(0.01, 0, 0);
+                
+                x-= 0.000001;
+                geometry2.scale(x, x, x);
+            }
+            animate();
+		</script>
+	</body>
+</html>

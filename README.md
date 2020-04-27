@@ -5,6 +5,6 @@ Part 2:
 # Lab3:
 [Click here for Video](https://drive.google.com/open?id=1FSYGRuUAHmQMaXYK3yGAJXEnI6veuW-t)
 # Lab4:
-a: the formula to get u-value 
-b: the formula to get v-value
-c: (x, y)
+a: the formula to get u-value  
+b: the formula to get v-value  
+c: (x, y)  

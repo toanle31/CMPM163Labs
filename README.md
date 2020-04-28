@@ -7,4 +7,4 @@ Part 2:
 # Lab4:
 a: Given x, u = x / (texture_width - 1). So x = u * (texture_width - 1) -> x = u * 7
 b: Given y, v = 1 - y/texture_height. So y = (1-v) * (texture_height - 1) -> y = 7(1-v)
-c: (0.375, 0.25) correspond to (2.625, 5.25)
+c: (0.375, 0.25) correspond to (2.625, 5.25) if we take floor of these coords we get (2, 5) -> gray pixel

@@ -7,7 +7,6 @@ var cubes = [];
 var pos = -3;
 var count = 0;
 var loader = new THREE.FileLoader();
-var fshader, vshader;
 
 function init()
 {

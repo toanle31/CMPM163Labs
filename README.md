@@ -12,3 +12,5 @@ c: (0.375, 0.25) correspond to (2.625, 5.25)  if we take floor of these coords w
 # Lab5:
 5a:
 [Click here for Video](https://drive.google.com/open?id=1bt1tu0YAkmIwvzpCUEo9D3sHz7EU3zg1)
+5b:
+[Click here for Video](https://drive.google.com/open?id=1wmnDQWku3Y5MdPg2sjVgKrIt_2EmgLEN)

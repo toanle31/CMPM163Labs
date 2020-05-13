@@ -20,6 +20,6 @@ c: (0.375, 0.25) correspond to (2.625, 5.25)  if we take floor of these coords w
 Part1:  
 <img src="images/lab6-part1.png" height="200">  
 Part2:
-[Click here for video](https://www.shadertoy.com/view/tdBfzz)  
+[Click here](https://www.shadertoy.com/view/tdBfzz)  
 Something someone else did:
-[Click here for video](https://www.shadertoy.com/view/3slcWr)
+[Click here](https://www.shadertoy.com/view/3slcWr)

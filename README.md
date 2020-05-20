@@ -25,4 +25,6 @@ Something someone else did:
 [Click here](https://www.shadertoy.com/view/3slcWr)
 # Lab7:
 Part2a:  
-<img src="images/lab7-part2a.png" height="200">
+<img src="images/lab7-part2a.png" height="200">  
+Part2b:  
+[Click here for Video](https://drive.google.com/open?id=1Izq3KIHB8mFfD62_Nob3VJSXaI0BrWPa)

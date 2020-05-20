@@ -27,7 +27,7 @@ Something someone else did:
 Part2a:  
 <img src="images/lab7-part2a.png" height="200">  
 Part2b:  
-[Click here for Video](https://drive.google.com/open?id=1Izq3KIHB8mFfD62_Nob3VJSXaI0BrWPa)
+[Click here for Video](https://drive.google.com/open?id=1Izq3KIHB8mFfD62_Nob3VJSXaI0BrWPa)  
 Part2c:  
 [Click here for Video](https://drive.google.com/open?id=1hGBR_mecuxFLAuC3sk8j9HXsT7CX8cQj)  
 Partner Answers:  

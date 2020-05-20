@@ -23,3 +23,6 @@ Part2:
 [Click here](https://www.shadertoy.com/view/tdBfzz)  
 Something someone else did:
 [Click here](https://www.shadertoy.com/view/3slcWr)
+# Lab7:
+Part2a:  
+<img src="images/lab7-part2.png" height="200">

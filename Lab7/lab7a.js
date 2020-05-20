@@ -59,6 +59,7 @@ function addLights()
     light.position.set(1, 1, 1).normalize();
     scene.add(light);
     scene.add(new THREE.AmbientLight(0xffffff, 0.3));
+    //a
 }
 
 function animate(time) 

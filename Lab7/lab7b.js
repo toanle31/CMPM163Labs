@@ -33,7 +33,7 @@ function init()
 
 function addPlane()
 {
-    const material = new THREE.MeshPhongMaterial({color:0x2288ff, Shininess:100, side:THREE.DoubleSide});
+    const material = new THREE.MeshPhongMaterial({color:0x2288ff, shininess:100, side:THREE.DoubleSide});
     var geometry = new THREE.PlaneGeometry(20, 20, 100, 100);
     var plane = new THREE.Mesh(geometry, material);
     plane.position.z = -20;
@@ -46,7 +46,7 @@ function addPlane()
         const token = '#include <begin_vertex>'
         const customTransform = `
                 vec3 transformed = vec3(position);
-                float freq = 3.0;
+                float freq = 1.0;
                 float amp = 0.1;
                 float angle = (time + position.x) * freq;
                 transformed.z += sin(angle) * amp;

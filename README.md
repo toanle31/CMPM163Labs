@@ -35,3 +35,10 @@ Name: Carlos Cisneros
 1. I did Part 1  
 2. Trying to make a mountain range from a plane using the shader graph was the most difficult.  
 3. I liked working with the shader graph from the first part 1 of the Unity assignment.  
+# Lab8:  
+Source image is of a part of San Francisco, the middle buildings are taller than the buildings surrounding it.  
+I edited the spawning algorithm to reflect this. I have also color coded the buildings based on its height.  
+Part2 Source:  
+<img src="images/lab8-src.jpg" height="200">  
+Part2 Generated:  
+<img src="images/lab8-generated.png" height="200">  
